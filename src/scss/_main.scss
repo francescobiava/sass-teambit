@@ -3,7 +3,7 @@ main {
   #section-1 {
     max-width: $max-width;
     margin: auto;
-    padding: 100px 0 100px;
+    padding: 100px 0;
     &::after {
       @include clearfix;
     }
@@ -57,6 +57,53 @@ main {
       img {
         width: 100%;
       }
+    }
+  }
+
+  #section-2 {
+    background-color: $background-color;
+    text-align: center;
+    .container {
+      max-width: $max-width;
+      margin: auto;
+      padding: 100px 0;
+      &::after {
+        @include clearfix;
+      }
+      h3 {
+        max-width: 650px;
+        margin: auto;
+        font-size: 1.6em;
+        line-height: 1.5em;
+        color: $text-color;
+        margin-bottom: 75px;
+      }
+      .box {
+        width: calc(100% / 3);
+        float: left;
+        img {
+          height: 120px;
+        }
+        p {
+          font-size: 1.2em;
+          font-weight: 200;
+          margin-top: 40px;
+          color: $text-color;
+          padding: 0 80px;
+        }
+      }
+      .img-bottom {
+        width: 300px;
+        margin-top: 100px;
+      }
+    }
+    .container:first-child {
+      border-bottom: 1px solid $text-color;
+    }
+    h3 {
+      font-size: 1.6em;
+      color: $text-color;
+      padding-bottom: 80px;
     }
   }
 }

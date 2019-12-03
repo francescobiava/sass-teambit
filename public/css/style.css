@@ -66,7 +66,7 @@ header .navbar .menu li .btn-signup:hover {
 main #section-1 {
   max-width: 1200px;
   margin: auto;
-  padding: 100px 0 100px;
+  padding: 100px 0;
 }
 
 main #section-1::after {
@@ -135,6 +135,64 @@ main #section-1 .right {
 
 main #section-1 .right img {
   width: 100%;
+}
+
+main #section-2 {
+  background-color: #ffe7d2;
+  text-align: center;
+}
+
+main #section-2 .container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 0;
+}
+
+main #section-2 .container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main #section-2 .container h3 {
+  max-width: 650px;
+  margin: auto;
+  font-size: 1.6em;
+  line-height: 1.5em;
+  color: #58402c;
+  margin-bottom: 75px;
+}
+
+main #section-2 .container .box {
+  width: calc(100% / 3);
+  float: left;
+}
+
+main #section-2 .container .box img {
+  height: 120px;
+}
+
+main #section-2 .container .box p {
+  font-size: 1.2em;
+  font-weight: 200;
+  margin-top: 40px;
+  color: #58402c;
+  padding: 0 80px;
+}
+
+main #section-2 .container .img-bottom {
+  width: 300px;
+  margin-top: 100px;
+}
+
+main #section-2 .container:first-child {
+  border-bottom: 1px solid #58402c;
+}
+
+main #section-2 h3 {
+  font-size: 1.6em;
+  color: #58402c;
+  padding-bottom: 80px;
 }
 
 * {
