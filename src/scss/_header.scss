@@ -2,7 +2,7 @@ header {
   height: 75px;
   .navbar {
     height: 100%;
-    max-width: 1200px;
+    max-width: $max-width;
     margin: auto;
     border-bottom: 1px solid $text-color;
     @include flex-between;

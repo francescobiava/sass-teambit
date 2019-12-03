@@ -1,0 +1,62 @@
+main {
+
+  #section-1 {
+    max-width: $max-width;
+    margin: auto;
+    padding: 100px 0 100px;
+    &::after {
+      @include clearfix;
+    }
+    .left {
+      width: 50%;
+      float: left;
+      padding-right: 35px;
+      h2 {
+        font-size: 3.2em;
+        font-weight: 600;
+        line-height: 1.5em;
+        color: $text-color;
+        margin-bottom: 30px;
+      }
+      p {
+        font-size: 1.5em;
+        font-weight: 200;
+        line-height: 1.5em;
+        color: $text-color;
+        margin-bottom: 30px;
+      }
+      a {
+        font-size: 0.8em;
+      }
+      .btn {
+        color: #fff;
+        background-color: $btn-color;
+        padding: 10px 18px;
+        border-radius: $btn-radius;
+        &:hover {
+          background-color: $btn-color-hover;
+        }
+      }
+      span {
+        font-size: 0.8em;
+        color: $text-color;
+        margin: 0 10px;
+      }
+      .email {
+        display: block;
+        margin-top: 30px;
+        color: $text-color;
+        &:hover {
+          color: $btn-color;
+        }
+      }
+    }
+    .right {
+      width: 50%;
+      float: left;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

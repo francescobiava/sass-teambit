@@ -63,6 +63,80 @@ header .navbar .menu li .btn-signup:hover {
   background-color: #30488f;
 }
 
+main #section-1 {
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 0 100px;
+}
+
+main #section-1::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main #section-1 .left {
+  width: 50%;
+  float: left;
+  padding-right: 35px;
+}
+
+main #section-1 .left h2 {
+  font-size: 3.2em;
+  font-weight: 600;
+  line-height: 1.5em;
+  color: #58402c;
+  margin-bottom: 30px;
+}
+
+main #section-1 .left p {
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 1.5em;
+  color: #58402c;
+  margin-bottom: 30px;
+}
+
+main #section-1 .left a {
+  font-size: 0.8em;
+}
+
+main #section-1 .left .btn {
+  color: #fff;
+  background-color: #30488f;
+  padding: 10px 18px;
+  border-radius: 7px;
+}
+
+main #section-1 .left .btn:hover {
+  background-color: #233569;
+}
+
+main #section-1 .left span {
+  font-size: 0.8em;
+  color: #58402c;
+  margin: 0 10px;
+}
+
+main #section-1 .left .email {
+  display: block;
+  margin-top: 30px;
+  color: #58402c;
+}
+
+main #section-1 .left .email:hover {
+  color: #30488f;
+}
+
+main #section-1 .right {
+  width: 50%;
+  float: left;
+}
+
+main #section-1 .right img {
+  width: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
