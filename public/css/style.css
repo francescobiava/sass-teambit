@@ -1,0 +1,84 @@
+header {
+  height: 75px;
+}
+
+header .navbar {
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  border-bottom: 1px solid #58402c;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+header .navbar .logo {
+  height: 35px;
+}
+
+header .navbar .logo .logo-img {
+  display: inline-block;
+  width: 110px;
+  height: 35px;
+  background-image: url("https://teambit.io/wp-content/themes/teambeat/img/logo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header .navbar .menu {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+header .navbar .menu li {
+  margin-left: 50px;
+}
+
+header .navbar .menu li a {
+  color: #58402c;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+header .navbar .menu li a:hover {
+  color: #30488f;
+}
+
+header .navbar .menu li .btn-signup {
+  color: #30488f;
+  padding: 8px 16px 6px;
+  border: 1px solid #30488f;
+  border-radius: 7px;
+}
+
+header .navbar .menu li .btn-signup:hover {
+  color: #fff;
+  background-color: #30488f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+}
+

@@ -1,0 +1,22 @@
+@import 'variables';
+@import 'common';
+@import 'header';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 16px;
+}
