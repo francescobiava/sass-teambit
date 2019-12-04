@@ -260,6 +260,113 @@ main #section-3 .row .text img {
   margin-left: 50px;
 }
 
+main #section-4 {
+  padding: 100px 0;
+  background-color: #ffe7d2;
+}
+
+main #section-4 .container {
+  max-width: 650px;
+  margin: auto;
+}
+
+main #section-4 .container h3 {
+  text-align: center;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  font-weight: 600;
+  color: #58402c;
+}
+
+main #section-4 .container .quote {
+  max-width: 100%;
+  background-color: #fff;
+  margin: 50px 0;
+  padding: 35px;
+  border: 1px solid #58402c;
+  border-radius: 7px;
+  position: relative;
+}
+
+main #section-4 .container .quote::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url("https://teambit.io/wp-content/themes/teambeat/img/landing/quote.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -22px;
+  left: -1px;
+  z-index: 1;
+}
+
+main #section-4 .container .quote p {
+  font-size: 1em;
+  color: #58402c;
+  line-height: 1.5em;
+  margin-bottom: 30px;
+}
+
+main #section-4 .container .quote img {
+  width: 40px;
+  margin-right: 15px;
+}
+
+main #section-4 .container .quote .author {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+main #section-4 .container .quote .author p {
+  font-size: 0.8em;
+  margin: 0;
+}
+
+main #section-4 .container .quote .author p span {
+  color: #30488f;
+}
+
+main #section-4 .container .buttons {
+  text-align: center;
+}
+
+main #section-4 .container .buttons a {
+  font-size: 0.9em;
+}
+
+main #section-4 .container .buttons .btn {
+  color: #fff;
+  background-color: #30488f;
+  padding: 10px 18px;
+  border-radius: 7px;
+}
+
+main #section-4 .container .buttons .btn:hover {
+  background-color: #233569;
+}
+
+main #section-4 .container .buttons .email {
+  display: block;
+  margin-top: 30px;
+  color: #58402c;
+}
+
+main #section-4 .container .buttons .email:hover {
+  color: #30488f;
+}
+
+main #section-4 .container .buttons span {
+  font-size: 0.8em;
+  color: #58402c;
+  margin: 0 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
