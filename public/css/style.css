@@ -367,6 +367,67 @@ main #section-4 .container .buttons span {
   margin: 0 10px;
 }
 
+footer {
+  padding: 100px 0;
+  max-width: 1200px;
+  margin: auto;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-align: start;
+          align-items: flex-start;
+}
+
+footer .logo {
+  width: 35%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+footer .logo img {
+  width: 50px;
+  height: 50px;
+}
+
+footer .logo p {
+  padding-right: 50px;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  color: #58402c;
+  margin-left: 25px;
+}
+
+footer ul {
+  width: calc(65% / 5);
+  padding-right: 10px;
+}
+
+footer ul li:first-child {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #58402c;
+  margin-bottom: 25px;
+}
+
+footer ul a {
+  display: block;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  color: #58402c;
+  margin-bottom: 20px;
+}
+
+footer ul a:hover {
+  color: #30488f;
+}
+
 * {
   margin: 0;
   padding: 0;
