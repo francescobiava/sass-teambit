@@ -177,7 +177,7 @@ main #section-2 .container .box p {
   font-weight: 200;
   margin-top: 40px;
   color: #58402c;
-  padding: 0 80px;
+  padding: 0 60px;
 }
 
 main #section-2 .container .img-bottom {
@@ -193,6 +193,71 @@ main #section-2 h3 {
   font-size: 1.6em;
   color: #58402c;
   padding-bottom: 80px;
+}
+
+main #section-3 .row {
+  margin: 100px 0;
+}
+
+main #section-3 .row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main #section-3 .row .left {
+  float: left;
+}
+
+main #section-3 .row .left img {
+  float: right;
+}
+
+main #section-3 .row .right {
+  float: right;
+}
+
+main #section-3 .row .right img {
+  float: left;
+}
+
+main #section-3 .row .image {
+  width: 50%;
+  overflow-x: hidden;
+}
+
+main #section-3 .row .image img {
+  width: 110%;
+}
+
+main #section-3 .row .text {
+  width: 30%;
+  padding: 20px;
+}
+
+main #section-3 .row .text h4 {
+  font-size: 1.6em;
+  line-height: 1.6em;
+  color: #58402c;
+}
+
+main #section-3 .row .text p {
+  margin: 20px 0;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  color: #58402c;
+}
+
+main #section-3 .row .text a {
+  display: block;
+  margin: 30px 0;
+  font-size: 1.2em;
+  color: #30488f;
+}
+
+main #section-3 .row .text img {
+  width: 270px;
+  margin-left: 50px;
 }
 
 * {

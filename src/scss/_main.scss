@@ -89,7 +89,7 @@ main {
           font-weight: 200;
           margin-top: 40px;
           color: $text-color;
-          padding: 0 80px;
+          padding: 0 60px;
         }
       }
       .img-bottom {
@@ -104,6 +104,59 @@ main {
       font-size: 1.6em;
       color: $text-color;
       padding-bottom: 80px;
+    }
+  }
+
+  #section-3 {
+    .row {
+      margin: 100px 0;
+      &::after {
+        @include clearfix;
+      }
+      .left {
+        float: left;
+        img {
+          float: right;
+        }
+      }
+      .right {
+        float: right;
+        img {
+          float: left;
+        }
+      }
+      .image {
+        width: 50%;
+        overflow-x: hidden;
+        img {
+          width: 110%;
+        }
+      }
+      .text {
+        width: 30%;
+        padding: 20px;
+        h4 {
+          font-size: 1.6em;
+          line-height: 1.6em;
+          color: $text-color;
+        }
+        p {
+          margin: 20px 0;
+          font-size: 1.3em;
+          line-height: 1.5em;
+          color: $text-color;
+        }
+        a {
+          display: block;
+          margin: 30px 0;
+          font-size: 1.2em;
+          color: $btn-color;
+        }
+        img {
+          width: 270px;
+          margin-left: 50px;
+        }
+      }
     }
   }
 }
